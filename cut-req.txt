@@ -1,1 +1,3 @@
-from procfile - web:gunicorn django_todo.wsgi:application
+original from procfile - web:gunicorn django_todo.wsgi:application
+
+version from heroku documentation - web:gunicorn django_todo.wsgi:app
